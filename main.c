@@ -21,7 +21,7 @@ int main() {
         printf("5. Alterar status de um pedido\n");
         printf("6. Realizar atendimento de um pedido\n");
         printf("0. Sair\n");
-        printf("Escolha uma opção: ");
+        printf("Escolha uma opcao: ");
         scanf("%d", &option);
 
         switch (option) {
@@ -47,7 +47,7 @@ int main() {
                 printf("Saindo do sistema...\n");
                 break;
             default:
-                printf("Opção inválida. Tente novamente.\n");
+                printf("OpÃ§Ã£o invÃ¡lida. Tente novamente.\n");
         }
     } while (option != 0);
 
